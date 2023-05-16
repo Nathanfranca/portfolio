@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+  
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 2vw;
+    
+}
+
+#about {
+    overflow: hidden;
+    
+    margin: none;
+    
+}
+
+
+#perfil {
+    border-radius: 50%;
+    margin-right: 3vw;
+    float: left;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 5vw;
+    background-color: bisque;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.486);
+    border-radius: 2px;
+}
+
+#paginas  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin: 5vw;
+}
+
+#paginas > div > p {
+    background-color: rgb(160, 180, 137);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+

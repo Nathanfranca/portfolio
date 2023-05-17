@@ -23,7 +23,6 @@ header {
 
 #about {
     overflow: hidden;
-    
     margin: none;
     
 }
@@ -33,6 +32,7 @@ header {
     border-radius: 50%;
     margin-right: 3vw;
     float: left;
+    padding: 5px;
 }
 
 .text-container {
@@ -54,12 +54,97 @@ header {
     margin: 5vw;
 }
 
-#paginas > div > p {
-    background-color: rgb(160, 180, 137);
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+
+
+.image {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 850px) {
+    .image > p {
+      font-size: 0.8em;
+      text-align: center;
+      word-wrap: break-word;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .image > p {
+      font-size: 0.7em;
+      text-align: center;
+      max-width: 90px;
+      
+    }
+  }
+
+
+  a:hover {
+    color: black;
+    font-size: 1.1em;
+    transition: 0.3s;
     
-}
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
 

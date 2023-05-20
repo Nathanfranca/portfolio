@@ -10,12 +10,17 @@
 <body>
     <header>
         <h1>Seja bem vindo ao meu Portfolio</h1>
+        <hr>
     </header>
 
     
     <section id="about">
         <div class="text-container">
-            <img id="perfil" src="media/Nathan-perfil.jpg" alt="Foto de perfil do criador deste Portfolio">
+            <picture>
+              <source media="(max-width: 660px)" srcset="media/Nathan-perfil-p.jpg" type="image/jpg">
+              <source media="(max-width: 850px )" srcset="media/Nathan-perfil-m.jpg" type="image/jpg">
+              <img id="perfil" src="media/Nathan-perfil.jpg" alt="Foto de perfil">
+            </picture>
             <p>Meu nome é Nathan José França, Estudo programação desde 2020, me formarei em ADS 
                 pelo Senac em 02/2024. <br> Este Portfolio foi feito para apresentar minhas habilidades e conhecimentos
                 atraves de páginas de empresas ficticias, onde eu desenvolvo a partir do zero.</p>
@@ -28,7 +33,7 @@
               <picture class="logo">
                 <source media="(max-width: 660px)" srcset="media/loja-meupet-pq.jpg" type="image/png">
                 <source media="(max-width: 850px)" srcset="media/loja-meupet-p.jpg" type="image/png">
-                <img class="logo-img" src="media/loja-meupet-g.jpg" alt="logo" srcset="">
+                <img class="logo-img" src="media/loja-meupet-g.jpg" alt="logo" >
               </picture>
               <p class="loja-txt">Loja pet, <br> Clique para acessar</p>
             </div>

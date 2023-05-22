@@ -93,8 +93,19 @@ header > hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     gap: 2vw;
     margin: 3vw;
+}
+
+@media screen and (max-width: 650px) {
+  #paginas {
+    font-size: 0.8em;
+    text-align: center;
+    word-wrap: break-word;
+    flex-direction: column;
+  }
+
 }
 
 
@@ -115,17 +126,23 @@ header > hr{
       text-align: center;
       word-wrap: break-word;
     }
+
+    .image{
+      flex-direction: column;
+    }
   }
   
   @media screen and (max-width: 600px) {
     .image > p {
-      font-size: 0.7em;
+      font-size: 0.9em;
+      flex-direction: column;
     }
   }
   
   @media screen and (max-width: 480px) {
     .image > p {
-      font-size: 0.6em;
+      font-size: 0.8em;
+      
     }
   }
   

@@ -76,9 +76,9 @@ header > hr{
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 440px) {
   .text-container > p {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
 
   .text-container{
@@ -93,7 +93,7 @@ header > hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5vw;
+    gap: 2vw;
     margin: 3vw;
 }
 
@@ -121,7 +121,14 @@ header > hr{
     .image > p {
       font-size: 0.7em;
       text-align: center;
-      max-width: 90px;
+      
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image > p {
+      font-size: 0.5em;
+      text-align: center;
       
     }
   }
@@ -136,54 +143,7 @@ header > hr{
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  footer{
+  footer {
     display: flex;
     justify-content: center;
     align-items: center;
